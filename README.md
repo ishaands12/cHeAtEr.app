@@ -33,7 +33,19 @@ Full control over your privacy.
 
 ---
 
-## 🔒 Privacy & Security
+## �️ Troubleshooting: "App is Damaged" Error
+
+If you see an error saying **"hAcKeR" is damaged and can't be opened**, this is a common issue with apps not from the App Store.
+
+**Run this command in Terminal to fix it:**
+```bash
+xattr -cr /Applications/hAcKeR.app
+```
+*Note: This command removes the "quarantine" attribute that macOS mistakenly applies.*
+
+---
+
+## �🔒 Privacy & Security
 
 *   **Local Processing**: Screenshots are processed securely.
 *   **Source Code**: The source code for this application is private to ensure integrity.
